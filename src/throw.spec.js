@@ -1,6 +1,5 @@
-import {cold, getTestScheduler, hot} from 'jasmine-marbles';
-import {Observable, from, EMPTY, range, interval, timer, throwError} from "rxjs";
-import {defaultIfEmpty, takeWhile, takeUntil, distinctUntilChanged, take, delayWhen} from "rxjs/operators/index";
+import {cold} from 'jasmine-marbles';
+import {throwError} from "rxjs";
 
 describe("Throw", () => {
 

@@ -1,6 +1,6 @@
-import {cold, hot} from 'jasmine-marbles';
-import {Observable, range} from "rxjs";
-import {ignoreElements, single} from "rxjs/operators/index";
+import {cold} from 'jasmine-marbles';
+import {range} from "rxjs";
+import {ignoreElements} from "rxjs/operators/index";
 
 describe("Ignore elements", () => {
 

@@ -1,6 +1,6 @@
-import {cold, getTestScheduler, hot} from 'jasmine-marbles';
+import {cold} from 'jasmine-marbles';
 import * as Observable from "rxjs";
-import {sample, take, reduce} from "rxjs/operators/index";
+import {reduce} from "rxjs/operators/index";
 
 describe("Reduce", () => {
 

@@ -1,6 +1,5 @@
-import {cold, hot} from 'jasmine-marbles';
-import {Observable, from, EMPTY} from "rxjs";
-import {defaultIfEmpty, distinctUntilChanged} from "rxjs/operators/index";
+import {EMPTY} from "rxjs";
+import {defaultIfEmpty} from "rxjs/operators/index";
 
 describe("Default if empty", () => {
 

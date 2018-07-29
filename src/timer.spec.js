@@ -1,4 +1,4 @@
-import {cold, getTestScheduler, hot} from 'jasmine-marbles';
+import {cold, getTestScheduler} from 'jasmine-marbles';
 import * as Observable from "rxjs";
 import {take} from "rxjs/operators/index";
 

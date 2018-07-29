@@ -1,6 +1,6 @@
-import {cold, getTestScheduler, hot} from 'jasmine-marbles';
+import {cold} from 'jasmine-marbles';
 import * as Observable from "rxjs";
-import {startWith, take, delay} from "rxjs/operators/index";
+import {startWith} from "rxjs/operators/index";
 
 describe("Start with", () => {
 

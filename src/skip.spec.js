@@ -1,6 +1,6 @@
-import {cold, getTestScheduler, hot} from 'jasmine-marbles';
-import {Observable, from, EMPTY, range, interval, timer} from "rxjs";
-import {defaultIfEmpty, distinctUntilChanged, take, delayWhen, skip} from "rxjs/operators/index";
+import {cold} from 'jasmine-marbles';
+import {range} from "rxjs";
+import {skip} from "rxjs/operators/index";
 
 describe("Skip", () => {
 

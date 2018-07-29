@@ -1,6 +1,5 @@
-import {cold, getTestScheduler, hot} from 'jasmine-marbles';
 import * as Observable from "rxjs";
-import {groupBy, mergeMap, sample, take, map, toArray} from "rxjs/operators/index";
+import {groupBy, mergeMap, toArray} from "rxjs/operators/index";
 
 describe("Group by", () => {
 

@@ -1,6 +1,6 @@
-import {cold, getTestScheduler, hot} from 'jasmine-marbles';
+import {cold, getTestScheduler} from 'jasmine-marbles';
 import * as Observable from "rxjs";
-import {take, map} from "rxjs/operators/index";
+import {map, take} from "rxjs/operators/index";
 
 describe("Map", () => {
 

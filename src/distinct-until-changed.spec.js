@@ -1,5 +1,5 @@
-import {cold, hot} from 'jasmine-marbles';
-import {Observable, from} from "rxjs";
+import {cold} from 'jasmine-marbles';
+import {from} from "rxjs";
 import {distinctUntilChanged} from "rxjs/operators/index";
 
 describe("Distinct until changed", () => {

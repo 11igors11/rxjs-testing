@@ -1,6 +1,5 @@
-import {cold, hot} from 'jasmine-marbles';
 import * as Observable from "rxjs";
-import {pluck, tap} from "rxjs/operators/index";
+import {pluck} from "rxjs/operators/index";
 
 describe("Pluck", () => {
 

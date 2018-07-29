@@ -1,4 +1,3 @@
-import {cold, hot} from 'jasmine-marbles';
 import {Observable} from "rxjs";
 
 describe("Creates", () => {

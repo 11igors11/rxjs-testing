@@ -1,6 +1,6 @@
-import {cold, getTestScheduler, hot} from 'jasmine-marbles';
+import {cold, getTestScheduler} from 'jasmine-marbles';
 import * as Observable from "rxjs";
-import {groupBy, mergeMap, sample, take, map, toArray, first, timeout, catchError} from "rxjs/operators/index";
+import {catchError, first, timeout} from "rxjs/operators/index";
 
 describe("Timeout", () => {
 

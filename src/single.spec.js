@@ -1,5 +1,5 @@
-import {cold, hot} from 'jasmine-marbles';
-import {Observable, range} from "rxjs";
+import {cold} from 'jasmine-marbles';
+import {range} from "rxjs";
 import {single} from "rxjs/operators/index";
 
 describe("Single", () => {

@@ -1,16 +1,6 @@
-import {cold, getTestScheduler, hot} from 'jasmine-marbles';
-import {Observable, from, EMPTY, range, interval, timer, concat, of} from "rxjs";
-import {
-    defaultIfEmpty,
-    distinctUntilChanged,
-    map,
-    take,
-    delayWhen,
-    skip,
-    last,
-    concatAll,
-    concatMap, concatMapTo
-} from "rxjs/operators/index";
+import {cold, getTestScheduler} from 'jasmine-marbles';
+import {from, interval, of} from "rxjs";
+import {concatMapTo, take} from "rxjs/operators/index";
 
 describe("Concat map to", () => {
 
@@ -20,7 +10,7 @@ describe("Concat map to", () => {
 
         const expected = cold(`(aaaa|)`, values);
 
-        const result = from([1,2,3,4])
+        const result = from([1, 2, 3, 4])
             .pipe(concatMapTo(of(values.a)));
 
         expect(result).toBeObservable(expected);
@@ -39,7 +29,7 @@ describe("Concat map to", () => {
             .pipe(
                 take(4),
                 concatMapTo(of(22)),
-                );
+            );
 
         expect(result).toBeObservable(expected);
 

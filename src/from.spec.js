@@ -1,4 +1,4 @@
-import {cold, hot} from 'jasmine-marbles';
+import {cold} from 'jasmine-marbles';
 import * as Observable from "rxjs";
 
 describe("From", () => {

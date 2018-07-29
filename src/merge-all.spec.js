@@ -1,16 +1,6 @@
-import {cold, getTestScheduler, hot} from 'jasmine-marbles';
-import {Observable, from, EMPTY, range, interval, timer, concat, of} from "rxjs";
-import {
-    defaultIfEmpty,
-    distinctUntilChanged,
-    map,
-    take,
-    delayWhen,
-    skip,
-    last,
-    concatAll,
-    mergeAll
-} from "rxjs/operators/index";
+import {cold, getTestScheduler} from 'jasmine-marbles';
+import {from, timer} from "rxjs";
+import {mergeAll, take} from "rxjs/operators/index";
 
 describe("Merge all", () => {
 
